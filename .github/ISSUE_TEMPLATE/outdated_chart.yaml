@@ -1,5 +1,5 @@
-name: ⚙️ Report Outdated App 🪛
-description: Report a Outdated App
+name: ⚙️ Report Outdated Chart 🪛
+description: Report a Outdated Chart
 labels: ["outdated"]
 body:
   - type: markdown
@@ -10,7 +10,6 @@ body:
         - Chart version, means **our** version
         - Apps in the *incubator* train, **CANNOT be reported as outdated**, as they might not even be functional at all
         - Apps in the *stable* train, can be reported after the container update is at least **1 month old**
-        - Apps in the *premium* and *system* trains, can be reported after the container update is **at least 7 days old**
         ---
 
   - type: input
@@ -29,24 +28,8 @@ body:
         The type and version of the operating system you are currently running.
       multiple: false
       options:
-        - "Talos-OS 1.9"
-        - "Talos-OS 1.8"
-        - "Talos-OS 1.7"
+        - "Talos-OS"
         - "other"
-    validations:
-      required: true
-  - type: dropdown 
-    id: train
-    attributes:
-      label: Train Name
-      description: |
-        The Train the outdated Chart is in.
-      multiple: false
-      options:
-        - "incubator"
-        - "stable"
-        - "premium"
-        - "system"
     validations:
       required: true
   - type: input
@@ -65,14 +48,6 @@ body:
         The version of the latest released upstream container
     validations:
       required: true
-  - type: input
-    id: latest-container-link
-    attributes:
-      label: Link to container
-      description: |
-        Link to the container
-    validations:
-      required: true
   - type: textarea
     id: add-contaxt
     attributes:
@@ -87,7 +62,7 @@ body:
       options:
         - label: I've checked all open and closed issues and my issue is not there.
           required: true
-        - label: I confirm that this chart is outdated for at least 7 days (premium/system train) or 1 month (stable train).
+        - label: I confirm that this chart is outdated for at least 1 month.
           required: true
         - label: I confirm that this is not an incubator chart.
           required: true

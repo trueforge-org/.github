@@ -42,12 +42,14 @@ TrueForge and open source can only exist with your continued support. Thank you 
 
 </div>
 
-## Meet the Core Team
+## Meet the Team
 
 - [**MrPuffin**](https://github.com/Crow-Control)
 - [**stavros-k**](https://github.com/stavros-k)
 - [**StevenMcElligott**](https://github.com/StevenMcElligott)
 - [**Alfi0812**](https://github.com/Alfi0812)
 - [**kqmaverick**](https://github.com/kqmaverick)
+- [**Six-Shooter**](https://github.com/six-shooter)
+- **BerpDerp**
 
 Say hello on [Discord](https://discord.gg/tVsPTHWTtr), or read more [about TrueForge](https://trueforge.org/about/).

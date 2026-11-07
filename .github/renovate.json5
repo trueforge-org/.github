@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "github>trueforge-org/renovate-config",
+    "github>trueforge-org/renovate-config:autoMergeLabels.json5"
+  ]
+  // "registryAliases": {
+  //   "registry-1.docker.io": "http://192.168.10.208:5000",
+  //   "docker.io": "http://192.168.10.208:5000"
+  // }
+}

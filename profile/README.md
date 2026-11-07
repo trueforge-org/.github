@@ -44,7 +44,7 @@ TrueForge and open source can only exist with your continued support. Thank you 
 
 ## Meet the Core Team
 
-- **MrPuffin**
+- [**MrPuffin**](https://github.com/Crow-Control)
 - [**stavros-k**](https://github.com/stavros-k)
 - [**StevenMcElligott**](https://github.com/StevenMcElligott)
 - [**Alfi0812**](https://github.com/Alfi0812)

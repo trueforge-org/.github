@@ -117,6 +117,12 @@
   color: "fef2c0"
   description: >-
     Categorises a PR or issue that references a new App.
+- name: "skip-coderabbit"
+  color: "fef2c0"
+  description: >-
+    Forces a Code-Rabbit skip
+
+    
 
 - name: "$$BOUNTY$$"
   color: "fef2c0"

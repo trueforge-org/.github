@@ -6,19 +6,13 @@
   "postCreateCommand": "if [ -f package.json ]; then npm install; fi",
   "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
   "mounts": [
-    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.claude,target=/config/.claude,type=bind,consistency=cached"
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.claude,target=/config/.claude,type=bind,consistency=cached",
+    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
   ],
   "containerEnv": {
     "CLAUDE_CONFIG_DIR": "/config/.claude"
   },
-  "features": {
-    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
-      "moby": false
-    },
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "24"
-    }
-  },
+  "features": {},
   "customizations": {
     "vscode": {
       "extensions": [
